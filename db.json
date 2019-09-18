@@ -10,7 +10,7 @@
     },
     {
       "title": "Create Folder Structure",
-      "description": "In your project root create an app folder. In the app folder create an actions.js, reducers.js files and a components folder and instructions.json."
+      "description": "In your project root create an app folder. In the app folder create an actions.js, reducers.js store.js files and a components folder and instructions.json."
     },
     {
       "title": "Create your first action",
@@ -21,12 +21,12 @@
       "description": "The reducers are in charge of updating the state of the app based on the actions passed to the store. - Redux Reducers \nThe combineReducers helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore.\n Updated reducers.js file."
     },
     {
-      "title": "Create your component",
-      "description": "In your components folder create a js file 'home.js'"
-    },
-    {
       "title": "Create Store",
       "description": "…the actions represent the facts about 'what happened' and the reducers that update the state according to those actions.\nThe Store is the object that brings them together.- Redux Store \nUpdated store.js file. In this file, create the redux store by importing the root reducer and injecting the Redux Thunk middleware."
+    },
+    {
+      "title": "Create your component",
+      "description": "In your components folder create a js file 'home.js'"
     },
     {
       "title": "Link it all together",
